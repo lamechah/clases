@@ -1,0 +1,54 @@
+html{font-size: 62.5%} 
+body{font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 20rem}
+header{font-size: 150%;color:goldenrod;font-weight: bolder; letter-spacing: 2rem}
+nav{font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; letter-spacing: 0.5rem;}
+#titulo{font-size: larger; padding:2rem; text-align: center}
+#texto{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+h2{font-family: Arial, Helvetica, sans-serif;color: dimgray}
+td{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color:black}
+th{color: darkgoldenrod}
+.column{float: left; width:32.2%;padding: 0.5rem;
+	border:goldenrod 2px solid;}
+.cleaner {clear: both;}
+
+header {
+	height: 17rem;
+	background-color: rgba(0, 0, 0, 1);
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+
+	nav {
+		float: right;
+		display: block;
+		line-height: 8rem;
+		margin-right: 3rem;
+	}
+	
+	.main-va li {
+		color: white;
+		font-size: 2.4rem;
+		list-style: none;
+		display: inline-block;
+		min-width: 5rem;
+		margin: 1rem;
+		position: relative;
+	}
+	
+	.second-va{
+		position: absolute;
+		display: none;
+		top: 9rem;
+		left: 0;
+		color: white;
+		background-color: black
+	}
+	
+	.main-va li:hover .second-va {
+		display: block;
+	}
+	
+
+

@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html{font-size: 62.5%;font-family:Roboto,-apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color:  #0033ff} 
+p{font-size:1.2rem;letter-spacing: 0.1rem;line-height: 1.5rem;word-spacing: 0.1rem;text-align:center}
+p{border-bottom-style: solid;border-left-style: dashed; border-right-style:solid; border-top-style: dotted;border-bottom-width: 1rem; border-bottom-color: green; text-align: justify;background: blueviolet }
+#dos{border: blue solid 4rem;text-align: center;font-size: 2rem; background:none}
+body{background-image: url("../img/pato.jpg");background-size: 50rem;background-position: right;background-repeat: repeat-x;background-position:50% 50%; height: 100vh}
+.animals li{list-style-type:square}

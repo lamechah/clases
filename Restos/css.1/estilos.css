@@ -1,0 +1,9 @@
+a{text-decoration: none;color: black}
+a:hover{color: blue}
+a:visited{color: red}
+html{font-size: 62.5%;font-family: Verdana, Geneva, Tahoma, sans-serif} 
+.italic{font-style: italic}
+.bold{font-weight:bolder}
+.textspace{letter-spacing: 2rem;word-spacing: 1rem; line-height: 4rem}
+.upper{text-transform: uppercase}
+.lower{text-transform: initial}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900');
+
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto';
+	color: rgb(102, 0, 204);
+}
+
+footer {
+	background-color: rgb(102, 0, 204);
+}
+
+footer div {
+	font-size: 1.4rem;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: white;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 3.6rem;
+}
+h2,
+h3,
+h4 {
+	text-transform: uppercase;
+	font-size: 2.4rem;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+nav {
+	font-size: 1.6rem;
+	color: grey;
+	text-transform: uppercase;
+}
+
+.dividerDotted {
+	border-bottom: lightblue 0.5rem dotted;
+}
+
+.divider {
+	border-bottom: rgb(102, 0, 204) 0.5rem solid;
+}
+
+.noDots {
+	list-style: none;
+}
+
+.textLeft p {
+	text-align: left;
+}
+
+.textRight p {
+	text-align: right;
+}
+
+.bold {
+	font-weight: bold;
+}
